@@ -71,4 +71,4 @@ jobs:
     - name: Perform CodeQL Analysis
       uses: github/codeql-action/analyze@v2
       with:
-        category: "/language:${{matrix.language}}"
+        category: "/language:${{matrix.language}}" https://github.com/FaceMob1309/FaceMob1309/actions/workflows/FaceMob:codeql.yml/badge.svg?branch=main&event=branch_protection_rule
